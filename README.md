@@ -22,8 +22,11 @@ This assignment helps us develop an understanding of networking tools
 2. Traceroute
 - What was the target server's IP address?
   
-|      Website      |    Target IP   | Hops |
+|      Website      |    Target IP   | Hops |  Is hops max or the number of hops what we are supposed to count?
 |-------------------|----------------|------|
-|   www.amazon.com  | 18.172.169.208 | 64
-|   www.google.com  | 
-| www.microsoft.com |
+|   www.amazon.com  | 18.172.169.208 |  64  |
+|   www.google.com  | 142.250.217.68 |  64  |
+| www.microsoft.com | 23.251.48.212  |  64  |
+
+3. Using "ngrok"
+- 
