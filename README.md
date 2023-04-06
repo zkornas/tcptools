@@ -24,12 +24,68 @@ This assignment helps us develop an understanding of networking tools
   
 |      Website      |    Target IP   | Hops |
 |-------------------|----------------|------|
-|   www.amazon.com  | 18.172.169.208 |  64  |
+|   www.amazon.com  | 18.172.169.208 |  14  |
 |   www.google.com  | 142.250.217.68 |  10  |
-| www.microsoft.com | 23.251.48.212  |  64  |
+| www.microsoft.com | 23.251.48.212  |   8  |
 
 - Can you identify your ISP from the intermediate server DNS names?
   - Yes, I believe that my ISP is infra.washington.edu based on the intermediate server DNS names.
+
+- Can you identify the "class" of IP addressfor each major step in the trip?
+
+  - Amazon 
+
+| Hop |    IP Address   |  Class  |
+|-----|-----------------|---------|
+|  1  |    10.18.0.2    | Class A |
+|  2  |   10.132.5.73   | Class A |
+|  3  |   10.132.5.75   | Class A |
+|  4  |  10.132.255.21  | Class A |
+|  5  |  10.132.255.22  | Class A |
+|  6  | 209.124.190.134 | Class C |
+|  7  | 209.124.181.245 | Class C |
+|  8  |     TIMED OUT   |   N/A   |
+|  9  |     TIMED OUT   |   N/A   |
+| 10  |     TIMED OUT   |   N/A   |
+| 11  |     TIMED OUT   |   N/A   |
+| 12  |     TIMED OUT   |   N/A   |
+| 13  |   15.230.247.0  | Class A |
+| 14  |  18.172.169.208 | Class A |
+
+- Google
+
+| Hop |    IP Address   |  Class  |
+|-----|-----------------|---------|
+|  1  |    10.18.0.2    | Class A |
+|  2  |   10.132.5.73   | Class A |
+|  3  |   10.132.5.75   | Class A |
+|  4  |  10.132.255.21  | Class A |
+|  5  |  10.132.255.22  | Class A |
+|  6  | 209.124.190.134 | Class C |
+|  7  |  74.125.51.244  | Class A |
+|  8  |  142.251.70.101 | Class B |
+|  9  |  142.251.55.199 | Class B |
+| 10  |  142.250.217.68 | Class B |
+
+- Microsoft
+
+| Hop |    IP Address   |  Class  |
+|-----|-----------------|---------|
+|  1  |    10.18.0.2    | Class A |
+|  2  |   10.132.5.73   | Class A |
+|  3  |   10.132.5.75   | Class A |
+|  4  |  10.132.255.21  | Class A |
+|  5  |  10.132.255.22  | Class A |
+|  6  | 209.124.188.134 | Class C |
+|  7  |  209.81.80.168  | Class C |
+|  8  |     TIMED OUT   |   N/A   |
+|  9  |     TIMED OUT   |   N/A   |
+| 10  |     TIMED OUT   |   N/A   |
+| 11  |  23.216.81.152  | Class A |
+
+
+
+
 
 3. Using "ngrok"
 - [I was able to successfully use ngrok to host a website :D](ngrok.png)
