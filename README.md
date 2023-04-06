@@ -93,4 +93,4 @@ This assignment helps us develop an understanding of networking tools
 - I attempted to play skyfall, an online browser-based multiplayer game. The IP address for skyfall.app is 10.18.186.89. All traffic I could find from skyfall in Wireshark was encrypted, making it impossible to find my opponents username and other useful information. A screenshot of the traffic captured can be found in the [game_traffic](game_traffic.png) file.
 
 6. Insecure web server
-- [I was successfully able to see my email and secret password when logging into an insecure site :O](insecure_site.png)
+- [I was successfully able to see my email and secret password when logging into an insecure site :O](insecure_website.png)
