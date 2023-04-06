@@ -83,10 +83,6 @@ This assignment helps us develop an understanding of networking tools
 | 10  |     TIMED OUT   |   N/A   |
 | 11  |  23.216.81.152  | Class A |
 
-
-
-
-
 3. Using "ngrok"
 - [I was able to successfully use ngrok to host a website :D](ngrok.png)
 
@@ -94,7 +90,7 @@ This assignment helps us develop an understanding of networking tools
 - [I was able to successfully use Wireshark to see the DHCP traffic :D](DHCP.png)
 
 5. Spy on your opponents
--
+- I attempted to play skyfall, an online browser-based multiplayer game. The IP address for skyfall.app is 10.18.186.89. All traffic I could find from skyfall in Wireshark was encrypted, making it impossible to find my opponents username and other useful information. A screenshot of the traffic captured can be found in the [game_traffic](game_traffic.png) file.
 
 6. Insecure web server
 - [I was successfully able to see my email and secret password when logging into an insecure site :O](insecure_site.png)
