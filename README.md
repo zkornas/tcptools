@@ -20,13 +20,16 @@ This assignment helps us develop an understanding of networking tools
   
   
 2. Traceroute
-- What was the target server's IP address?
+- What was the target server's IP address and number of hops?
   
 |      Website      |    Target IP   | Hops |
 |-------------------|----------------|------|
 |   www.amazon.com  | 18.172.169.208 |  64  |
-|   www.google.com  | 142.250.217.68 |  64  |
+|   www.google.com  | 142.250.217.68 |  10  |
 | www.microsoft.com | 23.251.48.212  |  64  |
 
+- Can you identify your ISP from the intermediate server DNS names?
+  - Yes, I believe that my ISP is infra.washington.edu based on the intermediate server DNS names.
+
 3. Using "ngrok"
-- 
+- [link](ngrok.png)
