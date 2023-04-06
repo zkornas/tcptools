@@ -32,4 +32,13 @@ This assignment helps us develop an understanding of networking tools
   - Yes, I believe that my ISP is infra.washington.edu based on the intermediate server DNS names.
 
 3. Using "ngrok"
-- [link](ngrok.png)
+- [I was able to successfully use ngrok to host a website :D](ngrok.png)
+
+4. Using packet-capture tools
+- [I was able to successfully use Wireshark to see the DHCP traffic :D](DHCP.png)
+
+5. Spy on your opponents
+-
+
+6. Insecure web server
+- [I was successfully able to see my email and secret password when logging into an insecure site :O](insecure_site.png)
